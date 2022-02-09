@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HotChocolate.AspNetCore" Version="12.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PartialUpdater.Core\PartialUpdater.Core.csproj" />
+      <ProjectReference Include="..\PartialUpdater.HotChocolate\PartialUpdater.HotChocolate.csproj" />
+    </ItemGroup>
+
+</Project>
